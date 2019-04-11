@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7A6ED6E225DBF9E0057E56F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6ED6D225DBF9E0057E56F /* AppDelegate.m */; };
+		F7A6ED71225DBF9E0057E56F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6ED70225DBF9E0057E56F /* FirstViewController.m */; };
+		F7A6ED74225DBF9E0057E56F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6ED73225DBF9E0057E56F /* SecondViewController.m */; };
+		F7A6ED77225DBF9E0057E56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A6ED75225DBF9E0057E56F /* Main.storyboard */; };
+		F7A6ED79225DBFA40057E56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A6ED78225DBFA40057E56F /* Assets.xcassets */; };
+		F7A6ED7C225DBFA40057E56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A6ED7A225DBFA40057E56F /* LaunchScreen.storyboard */; };
+		F7A6ED7F225DBFA40057E56F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6ED7E225DBFA40057E56F /* main.m */; };
+		F7A6ED91225DBFF00057E56F /* FakeTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6ED90225DBFF00057E56F /* FakeTouchView.m */; };
+		F7A6EDB6225DCA7B0057E56F /* PTFakeTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A6EDA4225DC2100057E56F /* PTFakeTouch.framework */; };
+		F7A6EDB7225DCA7B0057E56F /* PTFakeTouch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7A6EDA4225DC2100057E56F /* PTFakeTouch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7A6EDA3225DC2100057E56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A6ED9E225DC2100057E56F /* PTFakeTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15BBDEF91D61AD5B0098330F;
+			remoteInfo = PTFakeTouch;
+		};
+		F7A6EDA5225DC2100057E56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A6ED9E225DC2100057E56F /* PTFakeTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15BBDF031D61AD5B0098330F;
+			remoteInfo = PTFakeTouchTests;
+		};
+		F7A6EDB8225DCA7B0057E56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A6ED9E225DC2100057E56F /* PTFakeTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BBDEF81D61AD5B0098330F;
+			remoteInfo = PTFakeTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7A6EDBA225DCA7C0057E56F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7A6EDB7225DCA7B0057E56F /* PTFakeTouch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7A6ED69225DBF9E0057E56F /* FakeTouchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeTouchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A6ED6C225DBF9E0057E56F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7A6ED6D225DBF9E0057E56F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7A6ED6F225DBF9E0057E56F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F7A6ED70225DBF9E0057E56F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F7A6ED72225DBF9E0057E56F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F7A6ED73225DBF9E0057E56F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F7A6ED76225DBF9E0057E56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7A6ED78225DBFA40057E56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A6ED7B225DBFA40057E56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7A6ED7D225DBFA40057E56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A6ED7E225DBFA40057E56F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7A6ED8F225DBFF00057E56F /* FakeTouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakeTouchView.h; sourceTree = "<group>"; };
+		F7A6ED90225DBFF00057E56F /* FakeTouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeTouchView.m; sourceTree = "<group>"; };
+		F7A6ED9E225DC2100057E56F /* PTFakeTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PTFakeTouch.xcodeproj; path = ../PTFakeTouch.xcodeproj; sourceTree = "<group>"; };
+		F7A6EDA9225DC3060057E56F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../IOKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7A6ED66225DBF9E0057E56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A6EDB6225DCA7B0057E56F /* PTFakeTouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7A6ED60225DBF9E0057E56F = {
+			isa = PBXGroup;
+			children = (
+				F7A6ED9E225DC2100057E56F /* PTFakeTouch.xcodeproj */,
+				F7A6ED6B225DBF9E0057E56F /* FakeTouchApp */,
+				F7A6ED6A225DBF9E0057E56F /* Products */,
+				F7A6EDA7225DC2180057E56F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7A6ED6A225DBF9E0057E56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A6ED69225DBF9E0057E56F /* FakeTouchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A6ED6B225DBF9E0057E56F /* FakeTouchApp */ = {
+			isa = PBXGroup;
+			children = (
+				F7A6ED6C225DBF9E0057E56F /* AppDelegate.h */,
+				F7A6ED6D225DBF9E0057E56F /* AppDelegate.m */,
+				F7A6ED6F225DBF9E0057E56F /* FirstViewController.h */,
+				F7A6ED70225DBF9E0057E56F /* FirstViewController.m */,
+				F7A6ED72225DBF9E0057E56F /* SecondViewController.h */,
+				F7A6ED73225DBF9E0057E56F /* SecondViewController.m */,
+				F7A6ED8F225DBFF00057E56F /* FakeTouchView.h */,
+				F7A6ED90225DBFF00057E56F /* FakeTouchView.m */,
+				F7A6ED75225DBF9E0057E56F /* Main.storyboard */,
+				F7A6ED78225DBFA40057E56F /* Assets.xcassets */,
+				F7A6ED7A225DBFA40057E56F /* LaunchScreen.storyboard */,
+				F7A6ED7D225DBFA40057E56F /* Info.plist */,
+				F7A6ED7E225DBFA40057E56F /* main.m */,
+			);
+			path = FakeTouchApp;
+			sourceTree = "<group>";
+		};
+		F7A6ED9F225DC2100057E56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A6EDA4225DC2100057E56F /* PTFakeTouch.framework */,
+				F7A6EDA6225DC2100057E56F /* PTFakeTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A6EDA7225DC2180057E56F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A6EDA9225DC3060057E56F /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7A6ED68225DBF9E0057E56F /* FakeTouchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A6ED82225DBFA40057E56F /* Build configuration list for PBXNativeTarget "FakeTouchApp" */;
+			buildPhases = (
+				F7A6ED65225DBF9E0057E56F /* Sources */,
+				F7A6ED66225DBF9E0057E56F /* Frameworks */,
+				F7A6ED67225DBF9E0057E56F /* Resources */,
+				F7A6EDBA225DCA7C0057E56F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A6EDB9225DCA7B0057E56F /* PBXTargetDependency */,
+			);
+			name = FakeTouchApp;
+			productName = FakeTouchApp;
+			productReference = F7A6ED69225DBF9E0057E56F /* FakeTouchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7A6ED61225DBF9E0057E56F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WG;
+				TargetAttributes = {
+					F7A6ED68225DBF9E0057E56F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F7A6ED64225DBF9E0057E56F /* Build configuration list for PBXProject "FakeTouchApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7A6ED60225DBF9E0057E56F;
+			productRefGroup = F7A6ED6A225DBF9E0057E56F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F7A6ED9F225DC2100057E56F /* Products */;
+					ProjectRef = F7A6ED9E225DC2100057E56F /* PTFakeTouch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F7A6ED68225DBF9E0057E56F /* FakeTouchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F7A6EDA4225DC2100057E56F /* PTFakeTouch.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PTFakeTouch.framework;
+			remoteRef = F7A6EDA3225DC2100057E56F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F7A6EDA6225DC2100057E56F /* PTFakeTouchTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PTFakeTouchTests.xctest;
+			remoteRef = F7A6EDA5225DC2100057E56F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A6ED67225DBF9E0057E56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A6ED7C225DBFA40057E56F /* LaunchScreen.storyboard in Resources */,
+				F7A6ED79225DBFA40057E56F /* Assets.xcassets in Resources */,
+				F7A6ED77225DBF9E0057E56F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7A6ED65225DBF9E0057E56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A6ED74225DBF9E0057E56F /* SecondViewController.m in Sources */,
+				F7A6ED6E225DBF9E0057E56F /* AppDelegate.m in Sources */,
+				F7A6ED7F225DBFA40057E56F /* main.m in Sources */,
+				F7A6ED71225DBF9E0057E56F /* FirstViewController.m in Sources */,
+				F7A6ED91225DBFF00057E56F /* FakeTouchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7A6EDB9225DCA7B0057E56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PTFakeTouch;
+			targetProxy = F7A6EDB8225DCA7B0057E56F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7A6ED75225DBF9E0057E56F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A6ED76225DBF9E0057E56F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7A6ED7A225DBFA40057E56F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A6ED7B225DBFA40057E56F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7A6ED80225DBFA40057E56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7A6ED81225DBFA40057E56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7A6ED83225DBFA40057E56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K9256C42S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FakeTouchApp",
+				);
+				INFOPLIST_FILE = FakeTouchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wg.FakeTouchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7A6ED84225DBFA40057E56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K9256C42S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FakeTouchApp",
+				);
+				INFOPLIST_FILE = FakeTouchApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wg.FakeTouchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A6ED64225DBF9E0057E56F /* Build configuration list for PBXProject "FakeTouchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A6ED80225DBFA40057E56F /* Debug */,
+				F7A6ED81225DBFA40057E56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A6ED82225DBFA40057E56F /* Build configuration list for PBXNativeTarget "FakeTouchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A6ED83225DBFA40057E56F /* Debug */,
+				F7A6ED84225DBFA40057E56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7A6ED61225DBF9E0057E56F /* Project object */;
+}
